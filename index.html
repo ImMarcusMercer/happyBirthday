@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+    }
+    h1 {
+      font-size: 4em;
+      color: #ff4081;
+      text-shadow: 2px 2px #ff80ab;
+    }
+    .decor {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+    .cake {
+      font-size: 5em;
+    }
+    .confetti {
+      font-size: 2em;
+      animation: confetti-fall 2s infinite alternate;
+    }
+
+    @keyframes confetti-fall {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(10px); }
+    }
+
+    .card {
+      background: #fff;
+      color: #333;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="confetti">🎉🎊✨🎈</div>
+    <h1>Happy Birthday!</h1>
+    <div class="decor">Wishing you a day filled with love, joy, and cake! 🎂</div>
+    <div class="cake">🎂</div>
+    <div class="decor">🎁🎉🎈🍰🎊</div>
+  </div>
+</body>
+</html>
